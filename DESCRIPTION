@@ -8,3 +8,4 @@ Description: Connect and work with clinical trials data from ClinicalTrials.Org 
 License: Apache License Version 2.0
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 3.5.0), RPostgreSQL
