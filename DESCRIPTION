@@ -1,9 +1,9 @@
 Package: aactr
 Type: Package
-Title: Connect and work with clinical trials data from ClinicalTrials.Org via AACT database
+Title: Connect and work with clinical trials data from ClinicalTrials.Gov via AACT database
 Version: 0.1.0
 Author: Indraneel Chakraborty
-Description: Connect and work with clinical trials data from ClinicalTrials.Org via AACT database.
+Description: Connect and work with clinical trials data from ClinicalTrials.Gov via AACT database.
              More details coming soon. 
 License: Apache License Version 2.0
 Encoding: UTF-8
