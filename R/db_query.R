@@ -1,4 +1,5 @@
-check_connection <- function(con){
-  message("Fetching unique values for study_type column from the studies table")
-  dbGetQuery(con, "select distinct study_type from studies")
+get_query <- function(con, query) {
+  # Run a simple query to check db connection
+  df <- dbGetQuery(con, query)
+  return(df)
 }
