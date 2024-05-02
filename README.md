@@ -52,8 +52,22 @@ get_schema()
 👉 To run custom queries for fetching data from the AACT database
 ```R
 library(aactr)
-get_query(conn, 
-          query = "SELECT * FROM studies LIMIT 5")
+
+get_query(
+  conn, 
+  query = "
+    SELECT 
+      nct_id, 
+      source, 
+      enrollment, 
+      overall_status
+    FROM 
+      studies
+    LIMIT 
+      5;
+  "
+)
+
 ```
 You may define the query string outside the function call, store it in a variable and just pass it to the `get_query()` function.
 
