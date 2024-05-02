@@ -44,6 +44,11 @@ You should expect an output similar to -
 5                    Observational
 ```
 
+👉 To refer to AACT database schema and details
+```R
+library(aactr)
+get_schema()
+```
 👉 To run custom queries for fetching data from the AACT database
 ```R
 library(aactr)
